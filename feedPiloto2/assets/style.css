@@ -1,0 +1,100 @@
+*{
+    font-family: 'Graffiti font', sans-serif;
+                                                
+}
+body{
+    background-image: url("images/imgLogin9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    display: flex;
+    justify-content: left;
+    color: #fff;
+    padding: 50px 0 0 220px ;
+
+}
+
+.box{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 30vh;
+   
+}
+.container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 105px 0 15px;
+}
+
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.4);
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 95%;
+    background: rgba(255,255,255,0.8);
+    cursor: pointer;
+    transition: .3s;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7 1px rgba(255,255,255,0.3);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+h2{
+    display: flex;
+    justify-content: left;
+    color: #fff;
+    padding: 0px 800px 0 220px ;
+
+}
